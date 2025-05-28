@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akatsuki Merch | Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo" class="logo"/>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Our Products</h1>
+    <div class="products">
+      <div class="product">
+        <img src="images/cloak.jpg" alt="Cloak" class="product-img"/>
+        <h3>Akatsuki Cloak</h3>
+        <p>$40.00</p>
+        <button onclick="addToCart('Akatsuki Cloak', 40)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/rings.avif" alt="Rings" class="product-img"/>
+        <h3>Ring Set</h3>
+        <p>$25.00</p>
+        <button onclick="addToCart('Ring Set', 25)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/headband.jpg" alt="Headband" class="product-img"/>
+        <h3>Akatsuki Headband</h3>
+        <p>$10.00</p>
+        <button onclick="addToCart('Akatsuki Headband', 10)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Akatsuki Merch</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

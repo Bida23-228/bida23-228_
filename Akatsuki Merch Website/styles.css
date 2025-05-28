@@ -1,0 +1,79 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+}
+header, footer {
+  background: #222;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.products {
+  display: flex;
+  gap: 2em;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  background: #333;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+button {
+  background: crimson;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+.hero .home-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  padding: 1em;
+}
+.hero .home-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.home-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.logo {
+  height: 200px; /* Half of 400px */
+  width: auto;
+}
+
+.team {
+  height: 200px; /* Half of 400px */
+  width: auto;
+}
